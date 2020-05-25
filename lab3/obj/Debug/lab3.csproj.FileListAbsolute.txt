@@ -1,0 +1,16 @@
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\obj\Debug\lab3.csprojAssemblyReference.cache
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\obj\Debug\lab3.Form1.resources
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\obj\Debug\lab3.Properties.Resources.resources
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\obj\Debug\lab3.csproj.GenerateResource.cache
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\lab3.exe.config
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\lab3.exe
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\lab3.pdb
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\OpenTK.dll
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\OpenTK.GLControl.dll
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\OpenTK.pdb
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\OpenTK.xml
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\OpenTK.dll.config
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\bin\Debug\OpenTK.GLControl.xml
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\obj\Debug\lab3.csproj.CopyComplete
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\obj\Debug\lab3.exe
+C:\Users\Nikita\Documents\Компьютерная Графика\lab3\obj\Debug\lab3.pdb
