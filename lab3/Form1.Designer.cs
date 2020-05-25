@@ -67,10 +67,13 @@
             this.inMatLC2 = new System.Windows.Forms.TextBox();
             this.inMatLC1 = new System.Windows.Forms.TextBox();
             this.inMatLC4 = new System.Windows.Forms.TextBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.trackBar2 = new System.Windows.Forms.TrackBar();
             ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inCubeMat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inSphereMat)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.inMatId)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).BeginInit();
             this.SuspendLayout();
             // 
             // glControl1
@@ -362,39 +365,61 @@
             this.label14.TabIndex = 34;
             this.label14.Text = "lightCoefs:";
             // 
-            // textBox1
+            // inMatLC3
             // 
             this.inMatLC3.Location = new System.Drawing.Point(657, 334);
-            this.inMatLC3.Name = "textBox1";
+            this.inMatLC3.Name = "inMatLC3";
             this.inMatLC3.Size = new System.Drawing.Size(47, 22);
             this.inMatLC3.TabIndex = 37;
             // 
-            // textBox2
+            // inMatLC2
             // 
             this.inMatLC2.Location = new System.Drawing.Point(604, 334);
-            this.inMatLC2.Name = "textBox2";
+            this.inMatLC2.Name = "inMatLC2";
             this.inMatLC2.Size = new System.Drawing.Size(47, 22);
             this.inMatLC2.TabIndex = 36;
             // 
-            // textBox3
+            // inMatLC1
             // 
             this.inMatLC1.Location = new System.Drawing.Point(551, 334);
-            this.inMatLC1.Name = "textBox3";
+            this.inMatLC1.Name = "inMatLC1";
             this.inMatLC1.Size = new System.Drawing.Size(47, 22);
             this.inMatLC1.TabIndex = 35;
             // 
-            // textBox4
+            // inMatLC4
             // 
             this.inMatLC4.Location = new System.Drawing.Point(710, 334);
-            this.inMatLC4.Name = "textBox4";
+            this.inMatLC4.Name = "inMatLC4";
             this.inMatLC4.Size = new System.Drawing.Size(47, 22);
             this.inMatLC4.TabIndex = 38;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Location = new System.Drawing.Point(468, 480);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(79, 17);
+            this.label15.TabIndex = 39;
+            this.label15.Text = "Max Depth:";
+            // 
+            // trackBar2
+            // 
+            this.trackBar2.Location = new System.Drawing.Point(551, 470);
+            this.trackBar2.Maximum = 15;
+            this.trackBar2.Minimum = 1;
+            this.trackBar2.Name = "trackBar2";
+            this.trackBar2.Size = new System.Drawing.Size(206, 56);
+            this.trackBar2.TabIndex = 40;
+            this.trackBar2.Value = 15;
+            this.trackBar2.ValueChanged += new System.EventHandler(this.trackBar2_ValueChanged);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(767, 506);
+            this.Controls.Add(this.trackBar2);
+            this.Controls.Add(this.label15);
             this.Controls.Add(this.inMatLC4);
             this.Controls.Add(this.inMatLC3);
             this.Controls.Add(this.inMatLC2);
@@ -441,6 +466,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.inCubeMat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inSphereMat)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.inMatId)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.trackBar2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -487,6 +513,8 @@
         private System.Windows.Forms.TextBox inMatLC2;
         private System.Windows.Forms.TextBox inMatLC1;
         private System.Windows.Forms.TextBox inMatLC4;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TrackBar trackBar2;
     }
 }
 

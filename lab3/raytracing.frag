@@ -87,10 +87,10 @@ struct STracingRay
 struct Stack
 {
     int count;
-    STracingRay ar[100];
+    STracingRay ar[200];
 };
 
-Stack st[2];
+Stack st[1];
 
 void clear(int num) { st[num].count=0; }
 bool isEmpty(int num) { return (st[num].count == 0); }

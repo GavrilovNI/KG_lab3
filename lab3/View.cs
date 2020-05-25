@@ -649,9 +649,6 @@ namespace lab3
             }
         }
 
-
-        const int maxDepth = 20;
-
         static List<SMaterial> InitMaterials()
         {
             List<SMaterial> materials = new List<SMaterial>();
@@ -866,7 +863,16 @@ namespace lab3
                 new Vector3( 1f, 1f, 0f),
                 new Vector3(-1f, 1f, 0f) };
 
-        
+        public int maxDepth = 5;
+        public void UpdateMaxDepth()
+        {
+            int uniformLoc = GL.GetUniformLocation(basicProgramID, "maxDepth");
+            if (uniformLoc != -1)
+            {
+                GL.Uniform1(uniformLoc, maxDepth);
+            }
+        }
+
         public void Render()
         {
             GL.Clear(ClearBufferMask.ColorBufferBit | ClearBufferMask.DepthBufferBit);

@@ -301,5 +301,10 @@ namespace lab3
             inMatRefractCoef.Text = material.refractionCoef.ToString();
         }
 
+        private void trackBar2_ValueChanged(object sender, EventArgs e)
+        {
+            view.maxDepth = trackBar2.Value;
+            view.UpdateMaxDepth();
+        }
     }
 }
